@@ -1,6 +1,6 @@
 import { getRepository } from 'typeorm';
 
-import Item from '../models/Item';
+import Item from '../../models/Item';
 
 interface Request {
   title: string;
